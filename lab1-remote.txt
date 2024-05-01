@@ -1,0 +1,43 @@
+C:\Users\HP\Desktop\git-test1\test01>git remote add origin https://github.com/najla-alosime/div.git
+
+C:\Users\HP\Desktop\git-test1\test01>git push -u origin master
+fatal: unable to access 'https://github.com/najla-alosime/div.git/': OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+C:\Users\HP\Desktop\git-test1\test01>git remote add origin https://github.com/najla-alosime/div.git
+error: remote origin already exists.
+
+C:\Users\HP\Desktop\git-test1\test01>git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 786 bytes | 262.00 KiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/najla-alosime/div.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\HP\Desktop\git-test1\test01>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\Desktop\git-test1\test01
+
+04/29/2024  10:53 PM    <DIR>          .
+04/29/2024  10:53 PM    <DIR>          ..
+04/29/2024  10:30 PM                38 first.text
+04/29/2024  10:30 PM                38 first.txt
+04/29/2024  10:38 PM                38 fourth.txt
+04/29/2024  10:53 PM                38 laab02.txt
+04/29/2024  10:53 PM                38 lab02.txt
+04/29/2024  10:35 PM                38 second.txt
+04/29/2024  10:38 PM                38 third.txt
+               7 File(s)            266 bytes
+               2 Dir(s)  175,057,838,080 bytes free
+
+C:\Users\HP\Desktop\git-test1\test01>
+
+
+
+

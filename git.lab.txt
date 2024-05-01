@@ -1,0 +1,89 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. جميع الحقوق محفوظة.
+
+C:\Users\HP>cd Desktop
+
+C:\Users\HP\Desktop>mkdir git-test1
+
+C:\Users\HP\Desktop>cd git-test1
+
+C:\Users\HP\Desktop\git-test1>mkdir test01
+
+C:\Users\HP\Desktop\git-test1>cd test01
+
+C:\Users\HP\Desktop\git-test1\test01>git init
+Initialized empty Git repository in C:/Users/HP/Desktop/git-test1/test01/.git/
+
+C:\Users\HP\Desktop\git-test1\test01>cd> first.text
+
+C:\Users\HP\Desktop\git-test1\test01>cd> first.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git add .
+
+C:\Users\HP\Desktop\git-test1\test01>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\Desktop\git-test1\test01
+
+04/29/2024  10:30 PM    <DIR>          .
+04/29/2024  10:30 PM    <DIR>          ..
+04/29/2024  10:30 PM                38 first.text
+04/29/2024  10:30 PM                38 first.txt
+               2 File(s)             76 bytes
+               2 Dir(s)  171,475,726,336 bytes free
+
+C:\Users\HP\Desktop\git-test1\test01>git commit -m "add first file"
+[master (root-commit) 9454a1c] add first file
+ 2 files changed, 2 insertions(+)
+ create mode 100644 first.text
+ create mode 100644 first.txt
+
+C:\Users\HP\Desktop\git-test1\test01>cd> second.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git add second.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git commit -m "add second file"
+[master 36d0da3] add second file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 second.txt
+
+C:\Users\HP\Desktop\git-test1\test01>cd> third.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git add third.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git commit -m "add third file"
+[master 6553ee0] add third file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 third.txt
+
+C:\Users\HP\Desktop\git-test1\test01>cd> fourth.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git commit -m "add fourth file"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fourth.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\HP\Desktop\git-test1\test01>git log
+commit 6553ee012d12e3e4762600291e0658989ca562d7 (HEAD -> master)
+Author: najla-alosime <najlaalosime@gmail.com>
+Date:   Mon Apr 29 22:38:38 2024 +0300
+
+    add third file
+
+commit 36d0da30cee1c7715ae8db40bc3535c43beb40c8
+Author: najla-alosime <najlaalosime@gmail.com>
+Date:   Mon Apr 29 22:36:51 2024 +0300
+
+    add second file
+
+commit 9454a1c17584f92d07bf7f023998fa2e80ce46a6
+Author: najla-alosime <najlaalosime@gmail.com>
+Date:   Mon Apr 29 22:35:10 2024 +0300
+
+    add first file
+
+C:\Users\HP\Desktop\git-test1\test01>

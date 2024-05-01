@@ -1,0 +1,92 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. جميع الحقوق محفوظة.
+
+C:\Users\HP>cd Desktop
+
+C:\Users\HP\Desktop>cd git-test1
+
+C:\Users\HP\Desktop\git-test1>test01
+'test01' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\Desktop\git-test1>cd test01
+
+C:\Users\HP\Desktop\git-test1\test01>git branch
+  master
+* new
+
+C:\Users\HP\Desktop\git-test1\test01> cd>laab02.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git add laab02.txt
+
+C:\Users\HP\Desktop\git-test1\test01>git commit -m "add new file"
+[new aad9cf4] add new file
+ 2 files changed, 2 insertions(+)
+ create mode 100644 laab02.txt
+ create mode 100644 lab02.txt
+
+C:\Users\HP\Desktop\git-test1\test01>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\Desktop\git-test1\test01
+
+04/29/2024  10:50 PM    <DIR>          .
+04/29/2024  10:50 PM    <DIR>          ..
+04/29/2024  10:30 PM                38 first.text
+04/29/2024  10:30 PM                38 first.txt
+04/29/2024  10:38 PM                38 fourth.txt
+04/29/2024  10:50 PM                38 laab02.txt
+04/29/2024  10:44 PM                38 lab02.txt
+04/29/2024  10:35 PM                38 second.txt
+04/29/2024  10:38 PM                38 third.txt
+               7 File(s)            266 bytes
+               2 Dir(s)  171,476,115,456 bytes free
+
+C:\Users\HP\Desktop\git-test1\test01>git checkout master
+Switched to branch 'master'
+
+C:\Users\HP\Desktop\git-test1\test01>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\Desktop\git-test1\test01
+
+04/29/2024  10:52 PM    <DIR>          .
+04/29/2024  10:52 PM    <DIR>          ..
+04/29/2024  10:30 PM                38 first.text
+04/29/2024  10:30 PM                38 first.txt
+04/29/2024  10:38 PM                38 fourth.txt
+04/29/2024  10:35 PM                38 second.txt
+04/29/2024  10:38 PM                38 third.txt
+               5 File(s)            190 bytes
+               2 Dir(s)  171,475,869,696 bytes free
+
+C:\Users\HP\Desktop\git-test1\test01>git merge new
+Updating 6553ee0..aad9cf4
+Fast-forward
+ laab02.txt | 1 +
+ lab02.txt  | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 laab02.txt
+ create mode 100644 lab02.txt
+
+C:\Users\HP\Desktop\git-test1\test01>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\Desktop\git-test1\test01
+
+04/29/2024  10:53 PM    <DIR>          .
+04/29/2024  10:53 PM    <DIR>          ..
+04/29/2024  10:30 PM                38 first.text
+04/29/2024  10:30 PM                38 first.txt
+04/29/2024  10:38 PM                38 fourth.txt
+04/29/2024  10:53 PM                38 laab02.txt
+04/29/2024  10:53 PM                38 lab02.txt
+04/29/2024  10:35 PM                38 second.txt
+04/29/2024  10:38 PM                38 third.txt
+               7 File(s)            266 bytes
+               2 Dir(s)  171,475,800,064 bytes free
+
+C:\Users\HP\Desktop\git-test1\test01>

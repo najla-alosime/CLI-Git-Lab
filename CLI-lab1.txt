@@ -1,0 +1,59 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. جميع الحقوق محفوظة.
+
+C:\Users\HP>mkdir lab_1
+
+C:\Users\HP>cd lab_1
+
+C:\Users\HP\lab_1>cd >whoAml.txt
+
+C:\Users\HP\lab_1>notepad whoAml.txt
+
+C:\Users\HP\lab_1>type whoAml.txt
+C:\Users\HP\lab_1
+
+C:\Users\HP\lab_1>echo iam najla alosime>> whoAml.txt
+
+C:\Users\HP\lab_1>type whoAml.txt
+C:\Users\HP\lab_1
+iam najla alosime
+
+C:\Users\HP\lab_1>mkdir DS
+
+C:\Users\HP\lab_1>CD DS
+
+C:\Users\HP\lab_1\DS>CD > toDelete1.txt
+
+C:\Users\HP\lab_1\DS>echo hello evereone>toDelete1.txt
+
+C:\Users\HP\lab_1\DS>CD > toDelete2.txt
+
+C:\Users\HP\lab_1\DS>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\lab_1\DS
+
+04/29/2024  09:28 PM    <DIR>          .
+04/29/2024  09:28 PM    <DIR>          ..
+04/29/2024  09:27 PM                16 toDelete1.txt
+04/29/2024  09:28 PM                22 toDelete2.txt
+               2 File(s)             38 bytes
+               2 Dir(s)  171,575,533,568 bytes free
+
+C:\Users\HP\lab_1\DS>cd..
+
+C:\Users\HP\lab_1>rmdir /s DS
+DS, Are you sure (Y/N)? Y
+
+C:\Users\HP\lab_1>DIR
+ Volume in drive C has no label.
+ Volume Serial Number is 3AAC-AF96
+
+ Directory of C:\Users\HP\lab_1
+
+04/29/2024  09:29 PM    <DIR>          .
+04/29/2024  09:29 PM    <DIR>          ..
+04/29/2024  09:19 PM                38 whoAml.txt
+               1 File(s)             38 bytes
+               2 Dir(s)  171,575,595,008 bytes free
